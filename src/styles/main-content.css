@@ -246,9 +246,9 @@
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(var(--column-count), minmax(0, 1fr));
-    gap: var(--grid-gap);
-    min-width: var(--min-container-width);
+    grid-template-columns: repeat(5, 1fr);
+    gap: 24px;
+    min-width: 372px;
 }
 
 .artist-card {
@@ -320,7 +320,7 @@
 .play .fa-play {
     position: absolute;
     right: 10px;
-    top: 120px;
+    top: 200px;
     padding: 18px;
     background-color: var(--bg-play);
     border-radius: 100%;
