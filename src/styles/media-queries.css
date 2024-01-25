@@ -1,0 +1,5 @@
+@media screen and (max-width: var(--bp-tablet)) {
+    .offer__list-item {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
